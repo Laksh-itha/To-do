@@ -53,8 +53,8 @@ const [todos, setTodos] = useState(() => {
   return (
     <>
       <Navbar />
-      <div className="container py-3 mx-auto rounded-2xl  ">
-        <div className="bg-violet-300 rounded-xl min-h-[50vh] max-w-2xl mx-auto p-5">
+      <div className="w-full px-4 py-6 md:max-w-2xl md:mx-auto container  mx-auto rounded-2xl  ">
+        <div className="md: bg-violet-300 rounded-xl min-h-[50vh] max-w-2xl mx-auto p-5">
           <div className='addTodo '>
             <h1 className='text-2xl font-bold text-center py-2
           '>iTask - Manage your todos at one place</h1>
@@ -66,7 +66,8 @@ const [todos, setTodos] = useState(() => {
           </div>
 
           <h1 className='text-xl pt-1  font-bold'>Your Todos</h1>
-          <h1>----------------------------------------------------------------------------------</h1>
+         <hr className="border-violet-500 mb-3" />
+
           <div className="todos">
             {todos.map((item, index) => (
 

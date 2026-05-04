@@ -9,7 +9,7 @@ const Navbar = () => {
       <ul className='flex gap-12 mx-9'>
         <li className='text-xl cursor-pointer hover:font-bold'>Home</li>
         <li className='text-xl cursor-pointer hover:font-bold'>About Us</li>
-        <li className='text-xl cursor-pointer hover:font-bold'>Contact Us</li>
+        
       </ul>
     </nav>
   )
